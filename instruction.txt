@@ -1,0 +1,13 @@
+1. To create a json file
+
+	npm init -y
+
+2. To install developer dependency
+	npm install nodemon --save-dev
+
+3. in package.json
+	"scripts": {
+    "start": "nodemon server.js"
+  },
+
+  //or any file name which is going to be hosting server
