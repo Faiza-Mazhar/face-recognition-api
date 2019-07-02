@@ -19,7 +19,6 @@ const handleSignin = (db, bcrypt) => (req, res) => {
 		}
 	})
 	.catch( err => res.status(400).json("Wrong credentails"))
-	
 }
 
 module.exports = {
